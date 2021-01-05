@@ -1,0 +1,111 @@
+<style>
+    .goyang {
+      background: #ECE9E6;
+      background: -webkit-linear-gradient(to left, #ECE9E6, #FFFFFF);
+      background: linear-gradient(to left, #ECE9E6, #FFFFFF);
+      font-family: Helvetica, Arial, sans-serif;
+      color: #424249;
+      text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+    }
+    
+    h2 {
+      color: #232526;
+    }
+    
+    p {
+      color: #424249;
+    }
+    
+    .total,
+    .kondom {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .kontener {
+      max-width: 1280px;
+      margin: 49px auto;
+      padding: 0 20px;
+    }
+    
+    .box-menu {
+      background: #fff;
+      border-radius: 4px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom: 5px solid #3498DB;
+      text-align: center;
+      position: static;
+      display: table;
+      box-sizing: border-box;
+      width: 100%;
+    }
+    
+    .box-menu .total {
+      list-style: none;
+      width: 100%;
+    }
+    
+    .box-menu .total .kondom {
+      padding: 0;
+      float: left;
+      width: 30%;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .active {
+      background: #3498DB;
+    }
+    
+    .box-menu .total .kondom a {
+      padding: 20px 0 18px;
+      height: 20px;
+      display: block;
+      color: #232526;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    
+    .box-menu .total .kondom.active a {
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    }
+    
+    .box-menu .total .kondom:last-child {
+      border-right: none;
+    }
+    
+    .box {
+      background: #fff;
+      padding: 8px 20px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .box img {
+      width: 100%;
+    }
+    
+    .box form {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    
+    .box form input {
+      width: 100%;
+      padding: 10px 8px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+    
+    .box form button {
+      width: 100%;
+      padding: 10px 8px;
+      box-sizing: border-box;
+    }
+    
+    .box#about,
+    .box#settings {
+      display: none;
+    }
